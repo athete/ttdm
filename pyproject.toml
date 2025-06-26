@@ -1,0 +1,33 @@
+[project]
+name = "ttdm"
+authors = [
+    {
+        name = "Ameya Thete",
+        email = "ameya.thete@cern.ch"
+    }
+]
+
+description = "ttdm"
+readme = "README.md"
+license.file = "LICENSE"
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Science/Engineering"
+]
+dynamic = ["version"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://gitlab.cern.ch/athete/ttdm"
