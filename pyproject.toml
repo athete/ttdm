@@ -1,12 +1,8 @@
 [project]
 name = "ttdm"
 authors = [
-    {
-        name = "Ameya Thete",
-        email = "ameya.thete@cern.ch"
-    }
+    { name = "Ameya Thete", email = "ameya.thete@cern.ch" },
 ]
-
 description = "ttdm"
 readme = "README.md"
 license.file = "LICENSE"
@@ -30,4 +26,7 @@ dynamic = ["version"]
 dependencies = []
 
 [project.urls]
-Homepage = "https://gitlab.cern.ch/athete/ttdm"
+Homepage = "https://github.com/athete/ttdm"
+
+[tool.black]
+line-length = 100
